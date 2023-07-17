@@ -252,6 +252,9 @@ const cn = {
   Store: {
     DefaultTopic: "新的聊天",
     BotHello: "有什么可以帮你的吗",
+    **提问: **你可以在这里放一些常用问题吗？
+    **回答: **当然可以，还可以再这里放一些解答，太棒了！
+    卡顿或无响应？可能是用户量太大，[点这里获得独立账号 KEY 使用](www.baidu.com)
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
